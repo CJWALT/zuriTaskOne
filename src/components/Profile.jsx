@@ -5,8 +5,9 @@ const Profile = () => {
     <>
     
     <section className="profile">
-      <img src='./images/profile_img.png' id='profile__img'alt='profile'/>
-      <h2>Annette Black</h2>
+      <img src='./images/im_walt.jpg' id='profile__img'alt='profile'/>
+      <h2 id='twitter'>im_walt2</h2>
+      <h2 id='slack'>Oyedele Emmanuel</h2>
     </section>
         
     
