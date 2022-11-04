@@ -14,32 +14,34 @@ const Contact = () => {
                 </p>
 
                 <form action="#">
-                    <div className="form-field">
-                        <label>First name<br/>
+                    <fieldset>
+                        <label className='label__width'><p>First name</p>
                         <input type='text' id ='first_name' placeholder="Enter your first name"/>
                         </label><br/>
-                        <label>Last name<br/>
+                        <label className='label__width'><p>Last name </p>
                             <input type='text' id ='last_name' placeholder="Enter your last name"/>
                         </label>
-                    </div>
+                    </fieldset>
                     
-                    <div className="form-field">
-                        <label>Email 
+                    <fieldset>
+                        <label><p>Email </p>
                             <input type='text' id='email' placeholder="yourname@gmail.com"/>
                         </label>
-                    </div>
-                    <div className="form-field">
-                        <label>Message 
+                    </fieldset>
+                    <fieldset>
+                        <label><p>Message </p>
                             <textarea id='message' placeholder="Send me a message and i'll reply you as soon as possible"/> 
                         </label>
-                    </div> 
+                    </fieldset> 
 
-                    <div className="form-field">
-                        <label><input type='checkbox' /> 
-                            You agree to providing your data to {name} who may contact you.
-                            </label>
-                    </div>
-
+                    <fieldset>
+                        <label><input type='checkbox' className='checkbox'/> 
+                            <p className='checkbox__para'> You agree to providing your data to {name} who may contact you.</p>
+                        </label>
+                    </fieldset>
+                    <button id='btn__submit' className="btn">
+                        Send Message
+                    </button>
                 </form>
 
             </div>

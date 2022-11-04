@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
 :root{ 
     --primary-color:#101828;
     --bg-color:#EAECF0;
@@ -15,7 +17,7 @@ body{
 }
 
 .container{ 
-    width:75%; 
+    width:87%; 
     margin: 0 auto;
 }
 main{ 
@@ -119,7 +121,6 @@ footer{
 /* contact */
 
     .contact-wrap{ 
-        border:1px solid red;
         display:flex; 
         flex-direction: column;
         justify-content:center;
@@ -134,9 +135,88 @@ footer{
         color:#101828;
         margin-bottom:1.25rem;
     }
+    .contact__para{ 
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        color:#475467;
+        margin-bottom: 3rem;
+    }
+    fieldset{ 
+        display:flex;
+        gap:24px;
+        margin-bottom:24px;
+        border:0;
+    }
+    
+    label{ 
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color:#344054;
+        width:100%;
+        }
+    .label__width{ 
+        width:299px;
+        
+    }
+    label p{ 
+        margin-bottom:6px;
+    }
+    input{
+        padding:10px 14px; 
+        width:100%;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+    }
+    input::placeholder, textarea::placeholder{ 
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #667085;
+    }
+    textarea{ 
+        width:100%; 
+        resize:none;
+        height:132px;
+        border: 1px solid #D0D5DD;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+        padding:10px 14px;
+    }
+    
 
+    .checkbox{ 
+        width:20px;
+        box-shadow:none;
+        border-radius:6px;
+    }
+    .checkbox__para{ 
+        display:inline;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 16px;
+        color: #475467;
+    }
 
-
+    button{ 
+        background: #1570EF;
+        border: 1px solid #1570EF;
+        box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+        border-radius: 8px;
+        width:100%; 
+        text-align:center;
+        padding:10px 20px;
+        color:#fff;
+        font-family: 'Inter';
+        font-weight:600;
+        font-size: 16px;
+        cursor:pointer;
+    }
+    button:hover{ 
+        background:#175CD3;
+    }
 
 /* mediaqueries */
 
