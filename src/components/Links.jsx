@@ -26,7 +26,7 @@ const Links = () => {
             <a href="https://books.zuri.team/python-for-beginners?ref_id=oyedeleemmanuel" id="book__python">Python Books</a>
             <a href="https://background.zuri.team" id="twitter">Background Check for Coders </a>
             <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
-            <a href={"/contact"} id="book__design">Contact Me</a>
+            <a href={"/contact"} id="contact">Contact Me</a>
             
             </section>
             <section className="social__links">
