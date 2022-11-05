@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CJWALT/zuriTaskOne/static/css/main.8c17f373.css",
-    "main.js": "/CJWALT/zuriTaskOne/static/js/main.6b650cc7.js",
-    "index.html": "/CJWALT/zuriTaskOne/index.html",
-    "main.8c17f373.css.map": "/CJWALT/zuriTaskOne/static/css/main.8c17f373.css.map",
-    "main.6b650cc7.js.map": "/CJWALT/zuriTaskOne/static/js/main.6b650cc7.js.map"
+    "main.css": "/zuriTaskOne/static/css/main.8c17f373.css",
+    "main.js": "/zuriTaskOne/static/js/main.6b650cc7.js",
+    "index.html": "/zuriTaskOne/index.html",
+    "main.8c17f373.css.map": "/zuriTaskOne/static/css/main.8c17f373.css.map",
+    "main.6b650cc7.js.map": "/zuriTaskOne/static/js/main.6b650cc7.js.map"
   },
   "entrypoints": [
     "static/css/main.8c17f373.css",
