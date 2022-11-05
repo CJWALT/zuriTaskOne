@@ -40,7 +40,7 @@ const Contact = () => {
                         </label>
                     </fieldset>
                     <button id='btn__submit' className="btn">
-                        Send Message
+                        Send message
                     </button>
                 </form>
 
